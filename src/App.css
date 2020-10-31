@@ -1,0 +1,65 @@
+
+ .card-title {
+	max-width: 100%;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	text-align: center;
+	font-family: cursive;
+	font-size: 17px !important;
+}
+
+.card {
+	padding: 10px;
+	border: 1px solid rgb(0 0 0 / 51%) !important;
+}
+.card-body {
+	padding-bottom: 0;
+}
+
+.box {
+	color: #fff;
+	border-radius: 55px;
+	font-size: 150%;
+}
+
+a.bootCard {
+	display: inline-block;
+	width: calc( (100% / 4) - 40px );
+	margin: 20px;
+	text-decoration: none !important;
+	color: #000000;
+	cursor: pointer;
+	transition: transform 0.5s ease-in-out;
+}
+
+a.bootCard:hover {
+	transform: scale(1.05);
+	color: #000000;
+}
+
+.img {
+	width: 100%;
+	max-height: 200px;
+	object-fit: contain;
+}
+
+input {
+	width: 20%;
+	padding: 6px;
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+
+label {
+	font-size: xx-large;
+	padding: 10px 32px;
+	font-weight: 600;
+}
+
+.BrowsePage {
+	padding: 6%;
+	justify-content: space-between;
+	margin: 0 auto;
+	padding: 10px 0;
+}
